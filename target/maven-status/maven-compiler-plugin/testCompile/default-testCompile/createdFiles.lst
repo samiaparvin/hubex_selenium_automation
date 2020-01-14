@@ -1,0 +1,9 @@
+Test\ComponentsPageTest.class
+Test\EditComponentPageTest.class
+Pages\CreateComponentPage.class
+Test\LoginPageTest.class
+Pages\ComponentsPage.class
+Pages\DashboardPage.class
+Test\CreateComponentPageTest.class
+Pages\EditComponentPage.class
+Pages\LoginPage.class

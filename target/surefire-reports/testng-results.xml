@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubexTestSuite" duration-ms="52081" started-at="2020-01-14T08:38:45Z" finished-at="2020-01-14T08:39:37Z">
+    <groups>
+    </groups>
+    <test name="HubexTest" duration-ms="52081" started-at="2020-01-14T08:38:45Z" finished-at="2020-01-14T08:39:37Z">
+      <class name="Test.LoginPageTest">
+        <test-method status="PASS" signature="Check_Maxlength_for_Txtboxes()[pri:0, instance:Test.LoginPageTest@15f47664]" name="Check_Maxlength_for_Txtboxes" duration-ms="188" started-at="2020-01-14T14:39:07Z" finished-at="2020-01-14T14:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Maxlength_for_Txtboxes -->
+        <test-method status="PASS" signature="check_elements_visibility()[pri:0, instance:Test.LoginPageTest@15f47664]" name="check_elements_visibility" duration-ms="387" started-at="2020-01-14T14:39:07Z" finished-at="2020-01-14T14:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_elements_visibility -->
+        <test-method status="PASS" signature="login_test_Invalid_info()[pri:0, instance:Test.LoginPageTest@15f47664]" name="login_test_Invalid_info" duration-ms="5624" started-at="2020-01-14T14:39:08Z" finished-at="2020-01-14T14:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_Invalid_info -->
+        <test-method status="PASS" signature="login_test_valid_info()[pri:0, instance:Test.LoginPageTest@15f47664]" name="login_test_valid_info" duration-ms="8035" started-at="2020-01-14T14:39:13Z" finished-at="2020-01-14T14:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_valid_info -->
+      </class> <!-- Test.LoginPageTest -->
+      <class name="Test.EditComponentPageTest">
+        <test-method status="PASS" signature="startBrowserTNG()[pri:0, instance:Test.EditComponentPageTest@471a9022]" name="startBrowserTNG" is-config="true" duration-ms="19436" started-at="2020-01-14T14:38:45Z" finished-at="2020-01-14T14:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowserTNG -->
+        <test-method status="PASS" signature="startBrowserTNG()[pri:0, instance:Test.LoginPageTest@15f47664]" name="startBrowserTNG" is-config="true" duration-ms="3112" started-at="2020-01-14T14:39:04Z" finished-at="2020-01-14T14:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowserTNG -->
+        <test-method status="PASS" signature="check_editarPage()[pri:0, instance:Test.EditComponentPageTest@471a9022]" name="check_editarPage" duration-ms="9445" started-at="2020-01-14T14:39:21Z" finished-at="2020-01-14T14:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_editarPage -->
+        <test-method status="PASS" signature="tearDownTNG()[pri:0, instance:Test.EditComponentPageTest@471a9022]" name="tearDownTNG" is-config="true" duration-ms="1591" started-at="2020-01-14T14:39:31Z" finished-at="2020-01-14T14:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTNG -->
+        <test-method status="PASS" signature="tearDownTNG()[pri:0, instance:Test.LoginPageTest@15f47664]" name="tearDownTNG" is-config="true" duration-ms="4232" started-at="2020-01-14T14:39:33Z" finished-at="2020-01-14T14:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTNG -->
+      </class> <!-- Test.EditComponentPageTest -->
+    </test> <!-- HubexTest -->
+  </suite> <!-- HubexTestSuite -->
+</testng-results>

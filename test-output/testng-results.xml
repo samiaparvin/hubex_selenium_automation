@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-14T13:36:21 BDT" name="Default suite" finished-at="2020-01-14T13:36:43 BDT" duration-ms="21809">
+    <groups>
+    </groups>
+    <test started-at="2020-01-14T13:36:21 BDT" name="Default test" finished-at="2020-01-14T13:36:43 BDT" duration-ms="21809">
+      <class name="Test.LoginPageTest">
+        <test-method is-config="true" signature="startBrowserTNG()[pri:0, instance:Test.LoginPageTest@4c51bb7]" started-at="2020-01-14T13:36:21 BDT" name="startBrowserTNG" finished-at="2020-01-14T13:36:24 BDT" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowserTNG -->
+        <test-method signature="Check_Maxlength_for_Txtboxes()[pri:0, instance:Test.LoginPageTest@4c51bb7]" started-at="2020-01-14T13:36:24 BDT" name="Check_Maxlength_for_Txtboxes" finished-at="2020-01-14T13:36:24 BDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Maxlength_for_Txtboxes -->
+        <test-method signature="check_elements_visibility()[pri:0, instance:Test.LoginPageTest@4c51bb7]" started-at="2020-01-14T13:36:24 BDT" name="check_elements_visibility" finished-at="2020-01-14T13:36:25 BDT" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_elements_visibility -->
+        <test-method signature="login_test_Invalid_info()[pri:0, instance:Test.LoginPageTest@4c51bb7]" started-at="2020-01-14T13:36:25 BDT" name="login_test_Invalid_info" finished-at="2020-01-14T13:36:31 BDT" duration-ms="6243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_Invalid_info -->
+        <test-method signature="login_test_valid_info()[pri:0, instance:Test.LoginPageTest@4c51bb7]" started-at="2020-01-14T13:36:31 BDT" name="login_test_valid_info" finished-at="2020-01-14T13:36:39 BDT" duration-ms="7646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test_valid_info -->
+        <test-method is-config="true" signature="tearDownTNG()[pri:0, instance:Test.LoginPageTest@4c51bb7]" started-at="2020-01-14T13:36:39 BDT" name="tearDownTNG" finished-at="2020-01-14T13:36:43 BDT" duration-ms="4390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTNG -->
+      </class> <!-- Test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
