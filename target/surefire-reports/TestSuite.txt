@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.865 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 56.632 s <<< FAILURE! - in TestSuite
+startBrowserTNG(Test.CreateComponentPageTest)  Time elapsed: 56.031 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="hidden-md-down">...</span> is not clickable at point (620, 32). Other element would receive the click: <div class="preloader">...</div>
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KA6BLCO', ip: '192.168.1.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 76c680f558a5e64cfb74f3962665e3ba
+	at Test.CreateComponentPageTest.startBrowserTNG(CreateComponentPageTest.java:33)
+

@@ -1,1 +1,1 @@
-mvn test -Dsurefire.suiteXmlFiles=EditComponentPageTestNG.xml
+mvn test -Dsurefire.suiteXmlFiles=LoginPageTestNG.xml

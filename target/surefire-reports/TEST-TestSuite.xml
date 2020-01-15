@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="50.865" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="56.632" tests="4" errors="0" skipped="3" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire8731962428716649578\surefirebooter822082872948478276.jar C:\Users\User\AppData\Local\Temp\surefire8731962428716649578 2020-01-15T08-59-19_221-jvmRun1 surefire7357034421718900645tmp surefire_02681014271164956845tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire4345157126736887304\surefirebooter9035824881716954738.jar C:\Users\User\AppData\Local\Temp\surefire4345157126736887304 2020-01-15T09-35-49_444-jvmRun1 surefire4455187574996750829tmp surefire_04949406350477639611tmp"/>
     <property name="surefire.test.class.path" value="E:\samia\java\HubexAutomation\target\test-classes;E:\samia\java\HubexAutomation\target\classes;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\User\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\User\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\User\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\User\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\User\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\User\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\User\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\User\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\User\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\User"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire8731962428716649578\surefirebooter822082872948478276.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire4345157126736887304\surefirebooter9035824881716954738.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,6 +61,33 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Creating_components_check" classname="Test.CreateComponentPageTest" time="8.377"/>
-  <testcase name="check_CrearComponentePage" classname="Test.CreateComponentPageTest" time="0.576"/>
+  <testcase name="startBrowserTNG" classname="Test.CreateComponentPageTest" time="56.031">
+    <failure message="element click intercepted: Element &lt;span class=&quot;hidden-md-down&quot;&gt;...&lt;/span&gt; is not clickable at point (620, 32). Other element would receive the click: &lt;div class=&quot;preloader&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=79.0.3945.117)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KA6BLCO&apos;, ip: &apos;192.168.1.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 76c680f558a5e64cfb74f3962665e3ba" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="hidden-md-down">...</span> is not clickable at point (620, 32). Other element would receive the click: <div class="preloader">...</div>
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KA6BLCO', ip: '192.168.1.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 76c680f558a5e64cfb74f3962665e3ba
+	at Test.CreateComponentPageTest.startBrowserTNG(CreateComponentPageTest.java:33)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29012
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579059361.503][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 15, 2020 9:36:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1579059368.896][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="Creating_components_check" classname="Test.CreateComponentPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="check_CrearComponentePage" classname="Test.CreateComponentPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDownTNG" classname="Test.CreateComponentPageTest" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
