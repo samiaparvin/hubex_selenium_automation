@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [HubexTestSuite]" parallel="none">
+  <test name="HubexTest(failed)" parallel="none">
+    <classes>
+      <class name="Test.EditComponentPageTest">
+        <methods>
+          <include name="check_editarPage"/>
+        </methods>
+      </class> <!-- Test.EditComponentPageTest -->
+      <class name="Test.ComponentsPageTest">
+        <methods>
+          <include name="check_Logo_and_All_labels_visibility"/>
+          <include name="check_breadCrun_ListaDeComponent"/>
+          <include name="delete_btn_action_check"/>
+          <include name="check_editBtn_click"/>
+          <include name="check_CrearComponentes_click"/>
+          <include name="check_table_header_elements_visibility"/>
+          <include name="startBrowserTNG"/>
+        </methods>
+      </class> <!-- Test.ComponentsPageTest -->
+      <class name="Test.LoginPageTest">
+        <methods>
+          <include name="Check_Maxlength_for_Txtboxes"/>
+          <include name="check_elements_visibility"/>
+          <include name="login_test_valid_info"/>
+          <include name="login_test_Invalid_info"/>
+        </methods>
+      </class> <!-- Test.LoginPageTest -->
+      <class name="Test.CreateComponentPageTest">
+        <methods>
+          <include name="Creating_components_check"/>
+          <include name="startBrowserTNG"/>
+          <include name="check_CrearComponentePage"/>
+        </methods>
+      </class> <!-- Test.CreateComponentPageTest -->
+    </classes>
+  </test> <!-- HubexTest(failed) -->
+</suite> <!-- Failed suite [HubexTestSuite] -->

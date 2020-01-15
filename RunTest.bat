@@ -1,1 +1,1 @@
-mvn clean test -DsuiteXmlFile=testng.xml
+mvn test -Dsurefire.suiteXmlFiles=ComponentsPageTestNG.xml

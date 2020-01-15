@@ -102,6 +102,9 @@ For any kind inconvenience that may happen with project dependencies, the pom.xm
 
 #Run
 
-1. click on the RunTest.bat file or
-2. Open command prompt im project location and run this command - mvn clean test -DsuiteXmlFile=testng.xml
+1. To run desired TestSuite click on <TestSuiteName.bat> file. or
+   Open command prompt im project location and run this command- mvn test -Dsurefire.suiteXmlFiles=<TestSuiteName.xml>
+   
+2. To run all tests in project at once click on the RunTest.bat file or
+   Open command prompt im project location and run this command- mvn test -Dsurefire.suiteXmlFiles=testng.xml
 
