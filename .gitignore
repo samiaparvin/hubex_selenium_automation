@@ -2,3 +2,9 @@
 .classpath
 keep_track.txt
 .project
+testng.xml
+LoginPageTestNG.xml
+ComponentsPageTestNG.xml
+EditComponentPageTestNG.xml
+CreateComponentTestNG.xml
+New Text Document.txt
