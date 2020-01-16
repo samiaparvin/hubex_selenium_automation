@@ -48,7 +48,7 @@
 				<configuration>
 <!--  					<skipTests>true</skipTests>  -->
 					<suiteXmlFiles>
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>${testSuite}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -29,7 +29,7 @@ WebDriver driver = new ChromeDriver();
 	
     
     @BeforeTest
-    public void startBrowserTNG() {
+    public void startBrowserTNG() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
         driver.manage().window().maximize();
         driver.get("http://stage.hubex.tech/");
@@ -37,6 +37,8 @@ WebDriver driver = new ChromeDriver();
         LoginPage Lp = PageFactory.initElements(driver, LoginPage.class);
         Lp.login_using_valid_info();
         DashboardPage Dp = PageFactory.initElements(driver, DashboardPage.class);
+        Dp.NavigationBar_elements_visibility_check();
+        TimeUnit.SECONDS.sleep(1);
         Dp.getComponentes().click();
         
     }
@@ -113,7 +115,6 @@ WebDriver driver = new ChromeDriver();
     	TimeUnit.SECONDS.sleep(1);
     	Cp.delBtn_alert_cancleBtn_click();
 	}
-    
     
     @AfterTest
     public void tearDownTNG() {

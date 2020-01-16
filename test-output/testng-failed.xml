@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.ComponentsPageTest">
+      <class name="Test.DashboardPageTest">
         <methods>
-          <include name="delete_btn_action_check"/>
           <include name="tearDownTNG"/>
+          <include name="NavigationBar_Elements_visibility_Check"/>
           <include name="startBrowserTNG"/>
         </methods>
-      </class> <!-- Test.ComponentsPageTest -->
+      </class> <!-- Test.DashboardPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

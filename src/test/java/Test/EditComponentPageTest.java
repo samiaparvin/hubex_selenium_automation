@@ -29,6 +29,7 @@ WebDriver driver = new ChromeDriver();
         LoginPage Lp = PageFactory.initElements(driver, LoginPage.class);
         Lp.login_using_valid_info();
         DashboardPage Dp = PageFactory.initElements(driver, DashboardPage.class);
+        Dp.NavigationBar_elements_visibility_check();
         Dp.getComponentes().click();
         ComponentsPage CP = PageFactory.initElements(driver, ComponentsPage.class);
         CP.edit_btn_click();
